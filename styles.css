@@ -54,12 +54,12 @@ img { display: block; max-width: 100%; }
   position: sticky; top: 0; z-index: 50;
   display: flex; align-items: center; justify-content: space-between;
   gap: 1rem;
-  padding: 0.7rem var(--pad);
+  padding: 0.55rem var(--pad);
   background: rgba(28, 27, 24, 0.92);
   backdrop-filter: blur(8px);
   color: var(--cream);
 }
-.brand-logo { height: 38px; width: auto; }
+.brand-logo { height: 52px; width: auto; }
 
 .nav { display: flex; gap: clamp(0.9rem, 3vw, 2rem); }
 .nav a {
@@ -237,7 +237,7 @@ img { display: block; max-width: 100%; }
   padding: 1.6rem var(--pad);
   border-top: 1px solid rgba(245,241,232,0.08);
 }
-.footer-logo { height: 34px; width: auto; opacity: 0.85; }
+.footer-logo { height: 56px; width: auto; opacity: 0.9; }
 .footer-meta { display: flex; flex-direction: column; gap: 0.2rem; text-align: right; }
 .footer-meta span { font-size: 0.78rem; letter-spacing: 0.03em; }
 
@@ -262,7 +262,7 @@ img { display: block; max-width: 100%; }
   .stats { grid-template-columns: 1fr; gap: 1.6rem; }
 }
 @media (max-width: 640px) {
-  .brand-logo { height: 30px; }
+  .brand-logo { height: 38px; }
   .nav { gap: 0.9rem; }
   .nav a { font-size: 0.68rem; letter-spacing: 0.04em; }
   .block, .block-vision { grid-template-columns: 1fr; gap: 0.6rem; }
